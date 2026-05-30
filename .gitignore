@@ -13,3 +13,6 @@ instance/
 
 # working doc — local only
 PLANO.md
+
+# per-project working report (deliverable lives in /reports)
+*/reports/audit.md
