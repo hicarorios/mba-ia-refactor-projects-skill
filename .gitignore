@@ -10,3 +10,6 @@ venv/
 # SQLite
 *.db
 instance/
+
+# working doc — local only
+PLANO.md
