@@ -1,10 +1,8 @@
 from datetime import datetime
 import re
-import os
-import json
-import sys
-import math
-import hashlib
+
+from shared.time import now_utc
+
 
 def format_date(date_obj):
     if date_obj:
@@ -35,7 +33,7 @@ def generate_id():
 
 def log_action(action, details=None):
 
-    timestamp = datetime.utcnow()
+    timestamp = now_utc()
     print(f"[{timestamp}] ACTION: {action}")
     if details:
         print(f"  DETAILS: {details}")
