@@ -111,6 +111,6 @@ Validation
 ================================
 ```
 
-## Notes for whoever runs this skill
+## Important notes
 - The skill is copied **identically** into each project. It writes the report to `./reports/audit.md`; renaming it to `reports/audit-project-N.md` at the repository root is a delivery step outside the skill.
 - Keep `.env` out of version control; commit only `.env.example`.
